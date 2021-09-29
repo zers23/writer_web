@@ -1,0 +1,54 @@
+* {
+  tab-size: 2;
+  -moz-tab-size: 2;
+  color: white;
+  border-radius: 15px;
+  border-color: rgb(47, 47, 47);
+  font-size: 16pt;
+  outline: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  height: 100%;
+  background-color: #1d1d1d;
+  text-align: center;
+}
+
+textarea {
+  background-color: rgb(47, 47, 47);
+  margin: 15px;
+
+  outline: none;
+  -moz-appearance: none;
+  resize: none;
+  min-width: 700px;
+  max-width: 1000px;
+  width: 60%;
+  line-height: 1.7;
+}
+
+#download {
+  margin: 3px;
+  padding: 8px;
+  background-color: rgb(47, 47, 47);
+  border-color: rgb(47, 47, 47);
+  font-size: 15pt;
+  border-radius: 15px;
+  width: 500px;
+}
+
+#heading {
+  overflow: hidden;
+  margin-top: 0%;
+  padding-bottom: 15px;
+  height: 40px;
+}
+
+#text {
+  height: 600px;
+}
