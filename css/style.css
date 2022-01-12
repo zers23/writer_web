@@ -1,0 +1,51 @@
+* {
+    font-size: 16pt;
+    font-family: Verdana;
+    color: rgb(221, 221, 221);
+    tab-size: 7;
+    background-color: rgb(12, 12, 15);
+}
+
+.content {
+    background-color: rgb(10, 10, 10);
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.empty {
+    background-color: rgb(12, 12, 15);
+}
+
+.simpleBlock {
+    min-height: 50px;
+    width: 100%;
+    padding: 8px 30px 8px 30px;
+    margin: 0;
+    border: none;
+    display: block;
+    background-color: rgb(33, 33, 43);
+}
+
+#heading {
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    resize: none;
+    outline: none;
+}
+
+#text {
+    height: calc(100vh - 100px);
+    resize: none;
+    outline: none;
+}
+
+#download {
+    height: 50px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(20, 20, 20);
+}
