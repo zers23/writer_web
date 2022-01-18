@@ -6,7 +6,7 @@ let date = new Date();
 let userHeading = "baseName";
 let userData = "";
 
-heading.value = normalDate();
+heading.value = "";
 
 
 downloadBtn.addEventListener("click", () => {
@@ -34,13 +34,3 @@ text.addEventListener("keydown", function(e) {
     }
 });
 
-function normalDate() {
-    let myDate = '';
-    myDate += ((date.getDay() < 10) ? "0" : "") + date.getDay() + ".";
-    myDate += ((date.getMonth() + 1 < 10) ? "0" : "") + (date.getDay() + 1) + ".";
-    myDate += date.getFullYear() + "_";
-    myDate += ((date.getHours() < 10) ? "0" : "") + date.getHours() + ".";
-    myDate += ((date.getMinutes() < 10) ? "0" : "") + date.getMinutes() + ".";
-    myDate += ((date.getSeconds() < 10) ? "0" : "") + date.getSeconds();
-    return myDate;
-}
